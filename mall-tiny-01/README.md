@@ -76,5 +76,5 @@
 
 项目结构
 
-![image-20210806172053136](E:\blog\images\mbg.png)
+![](D:\project\mall-learning\mall-tiny-01\src\main\resources\static\img\mbg.png)
 
