@@ -65,7 +65,7 @@ public class Swagger2Config {
 }
 ```
 
-![image-20210809141512597](E:\blog\images\swagger2.png)
+![swagger2](https://user-images.githubusercontent.com/39876872/128669774-01214ed1-889f-4475-b2f9-6f4fcea5a346.png)
 
 上面这些信息均可以根据需求进行修改
 
@@ -121,9 +121,9 @@ http://localhost:8080/swagger-ui/index.html
 
 效果：
 
-![image-20210809142829935](E:\blog\images\swagger.png)
+![swagger](https://user-images.githubusercontent.com/39876872/128669834-75ae0bda-4361-41c0-8be3-8b324701413b.png)
 
 ## 在在线文档接口上进行测试
 
-![image-20210809144433560](E:\blog\images\swagger3.png)
+![swagger3](https://user-images.githubusercontent.com/39876872/128669846-45935de3-046a-41a5-969f-431a9508a4aa.png)
 
