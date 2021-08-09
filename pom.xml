@@ -16,5 +16,6 @@
 
     <modules>
         <module>mall-tiny-01</module>
+        <module>mall-tiny-02</module>
     </modules>
 </project>
