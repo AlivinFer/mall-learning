@@ -76,5 +76,6 @@
 
 项目结构
 
-![image-20210806172053136](E:\blog\images\mbg.png)
+![mbg](https://user-images.githubusercontent.com/39876872/128490407-d1e66f1b-7560-486f-ae04-f3e98dc8e501.png)
+
 
