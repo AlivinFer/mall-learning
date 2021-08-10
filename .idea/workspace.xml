@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2087293-7248-4ae4-9dc3-322fc08a9598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c2087293-7248-4ae4-9dc3-322fc08a9598" name="Default Changelist" comment="Swagger-UI 在线文档">
+      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/Config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/common/api/IErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/common/impl/CommonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/common/impl/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/common/impl/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/controller/UmsMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/service/api/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/service/api/UmsMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-tiny-01/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-tiny-01/src/main/resources/com/alivin/mall/tiny/mbg/mapper/PmsBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-tiny-01/src/main/resources/com/alivin/mall/tiny/mbg/mapper/PmsBrandMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +27,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,17 +78,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mall-tiny-02/src/main/java/com/alivin/mall/tiny" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/common" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\mall-learning\mall-tiny-03\src\main\java\com\alivin\mall\tiny\common" />
       <recent name="D:\project\mall-learning\mall-tiny-02\src\main\java\com\alivin\mall\tiny" />
       <recent name="D:\project\mall-learning\mall-tiny-02\src\main\java\com\alivin\mall\tiny\common" />
       <recent name="D:\project\mall-learning\mall-tiny-02\src\main\resources" />
       <recent name="D:\project\mall-learning\mall-tiny-01" />
-      <recent name="D:\project\mall-learning\mall-tiny-01\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.alivin.mall.tiny.controller" />
@@ -83,7 +96,7 @@
       <recent name="com.alivin.mall.tiny.mbg" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MallTiny02Application">
+  <component name="RunManager" selected="Spring Boot.MallTiny03Application">
     <configuration name="Generator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alivin.mall.tiny.mbg.Generator" />
       <module name="mall-tiny-02" />
@@ -140,6 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MallTiny03Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-tiny-03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alivin.mall.tiny.MallTiny03Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Generator (1)" />
@@ -169,8 +189,16 @@
       <workItem from="1628067417204" duration="6164000" />
       <workItem from="1628125351342" duration="140000" />
       <workItem from="1628125508443" duration="354000" />
-      <workItem from="1628125878269" duration="37078000" />
+      <workItem from="1628125878269" duration="59434000" />
     </task>
+    <task id="LOCAL-00001" summary="Swagger-UI 在线文档">
+      <created>1628491824619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628491824619</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,5 +214,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Swagger-UI 在线文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swagger-UI 在线文档" />
   </component>
 </project>

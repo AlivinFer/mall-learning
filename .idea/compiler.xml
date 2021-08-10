@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mall-tiny-01" />
         <module name="mall-tiny-02" />
+        <module name="mall-tiny-03" />
       </profile>
     </annotationProcessing>
   </component>
