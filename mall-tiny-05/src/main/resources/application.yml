@@ -1,0 +1,7 @@
+# 应用名称
+spring:
+  application:
+    name: mall-tiny-05
+server:
+  port: 8081
+
