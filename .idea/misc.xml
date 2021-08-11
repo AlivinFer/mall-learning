@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.springframework.beans.factory.annotation.Autowired" />
+    </list>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FindBugsConfigurable">
     <option name="make" value="true" />
@@ -14,6 +19,7 @@
         <option value="$PROJECT_DIR$/mall-tiny-01/pom.xml" />
         <option value="$PROJECT_DIR$/mall-tiny-02/pom.xml" />
         <option value="$PROJECT_DIR$/mall-tiny-03/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-tiny-04/pom.xml" />
       </list>
     </option>
   </component>

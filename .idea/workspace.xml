@@ -5,21 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2087293-7248-4ae4-9dc3-322fc08a9598" name="Default Changelist" comment="Swagger-UI 在线文档">
-      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/Config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/common/api/IErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/common/impl/CommonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/common/impl/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/common/impl/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/controller/UmsMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/service/api/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/service/api/UmsMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/common/api/IErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/common/impl/CommonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/common/impl/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/common/impl/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/common/utils/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/component/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/component/RestAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/component/RestfulAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/controller/UmsAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/dao/UmsAdminRoleRelationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/dto/AdminUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/dto/UmsAdminLoginParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/mbg/CommentGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/mbg/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/service/api/UmsAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/service/impl/UmsAdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/resources/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-tiny-04/src/main/resources/mapper/UmsAdminRoleRelationDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-tiny-01/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +73,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1wFmDQeuUZ7yQLJxZWsdNQkbxnW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -78,28 +91,50 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mall-tiny-03/src/main/java/com/alivin/mall/tiny/common" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mall-tiny-04/src/main/java/com/alivin/mall/tiny/mbg" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\mall-learning\mall-tiny-04\src\main\java\com\alivin\mall\tiny\mbg" />
+      <recent name="D:\project\mall-learning\mall-tiny-04\src\main\java\com\alivin\mall\tiny\common" />
+      <recent name="D:\project\mall-learning\mall-tiny-04\src\main\resources" />
       <recent name="D:\project\mall-learning\mall-tiny-03\src\main\java\com\alivin\mall\tiny\common" />
       <recent name="D:\project\mall-learning\mall-tiny-02\src\main\java\com\alivin\mall\tiny" />
-      <recent name="D:\project\mall-learning\mall-tiny-02\src\main\java\com\alivin\mall\tiny\common" />
-      <recent name="D:\project\mall-learning\mall-tiny-02\src\main\resources" />
-      <recent name="D:\project\mall-learning\mall-tiny-01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\mall-learning\mall-tiny-04\src\main\resources\mapper" />
+      <recent name="D:\project\mall-learning\mall-tiny-04\src\main\resources\com\alivin\mall\tiny\dao" />
+      <recent name="D:\project\mall-learning\mall-tiny-04\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.alivin.mall.tiny" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.alivin.mall.tiny.controller" />
+      <recent name="com.alivin.mall.tiny.component" />
       <recent name="com.alivin.mall.tiny.config" />
       <recent name="com.alivin.mall.tiny.mbg" />
+      <recent name="com.alivin.mall.tiny.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MallTiny03Application">
+  <component name="RunManager" selected="Spring Boot.MallTiny04Application">
     <configuration name="Generator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alivin.mall.tiny.mbg.Generator" />
       <module name="mall-tiny-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alivin.mall.tiny.mbg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generator (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alivin.mall.tiny.mbg.Generator" />
+      <module name="mall-tiny-04" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.alivin.mall.tiny.mbg.*" />
@@ -123,6 +158,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -132,11 +172,6 @@
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="NimRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="nim.task.build.to.cache" enabled="true" />
       </method>
     </configuration>
     <configuration name="MallTiny01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -160,8 +195,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MallTiny04Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-tiny-04" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alivin.mall.tiny.MallTiny04Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Generator (2)" />
         <item itemvalue="Application.Generator (1)" />
         <item itemvalue="Application.Generator" />
       </list>
@@ -190,6 +233,8 @@
       <workItem from="1628125351342" duration="140000" />
       <workItem from="1628125508443" duration="354000" />
       <workItem from="1628125878269" duration="59434000" />
+      <workItem from="1628578191402" duration="44000" />
+      <workItem from="1628578340959" duration="20759000" />
     </task>
     <task id="LOCAL-00001" summary="Swagger-UI 在线文档">
       <created>1628491824619</created>
@@ -214,6 +259,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Swagger-UI 在线文档" />
